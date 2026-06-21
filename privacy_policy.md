@@ -1,6 +1,6 @@
-# Privacy Policy — Naam Jaap Counter
+# Privacy Policy — Naam Jaap & Mantra Counter
 
-**Last updated:** May 24, 2026  
+**Last updated:** June 20, 2026  
 **Developer:** nik.dev  
 **Contact:** nik.dev.acc@gmail.com
 
@@ -8,9 +8,12 @@
 
 ## 1. Overview
 
-Naam Jaap Counter ("the App") is a spiritual mantra and jaap counting application for Android. We are committed to protecting your privacy. This policy explains what information is collected, how it is used, and your rights regarding that information.
+Naam Jaap & Mantra Counter ("the App") is a spiritual mantra and jaap counting application for Android. We are committed to protecting your privacy. This policy explains what information is collected, how it is used, and your rights regarding that information.
 
-**In short:** The App does not collect any personally identifiable information. All your counting data stays on your device. We collect only anonymous usage analytics to improve the App.
+**In short:**
+- **No User Accounts:** The App does not require, support, or use user accounts. There are no registration forms, logins, or user profiles.
+- **Data remains local:** All your counting logs and app configuration remain exclusively on your device. We do not operate any server that stores your personal data.
+- **Anonymous analytics:** We collect only anonymous usage analytics to improve the App. No personally identifiable information is collected.
 
 ---
 
@@ -26,29 +29,30 @@ All counting data is stored exclusively on your device using a local SQLite data
 
 This data **never leaves your device** unless you explicitly choose to export or back it up using the in-app features described in Section 4. We have no access to this data.
 
-### 2.2 Anonymous Analytics Data (Firebase Analytics)
+### 2.2 Anonymous Analytics & Advertising Identifiers
 
-The App uses **Firebase Analytics** (provided by Google LLC) to collect anonymous usage data. This helps us understand how the App is used so we can improve it.
+The App uses **Firebase Analytics** and **Google AdMob** (both provided by Google LLC) to collect anonymous usage and device data. This helps us serve advertisements, measure ad performance, and analyze app interactions to improve the user experience.
 
-**What is collected automatically by Firebase:**
+**What is collected automatically:**
 
 | Data | Purpose |
 |---|---|
-| Device model and OS version | Understand device compatibility |
-| Country and language | Support localisation decisions |
+| Device model, OS version, and Device or Other IDs (e.g., Android Advertising ID) | Support ad delivery, attribution, and analytics |
+| Country and language | Support localisation and geo-targeted ads |
 | App version and build number | Track adoption of updates |
-| Session duration and Custom events | Understand engagement |
-| First open and app remove events | Track install/uninstall trends |
+| Session duration and Custom events (interactions) | Analyze feature usage and engagement |
+| First open and app remove events | Track install and uninstall trends |
+| App performance metrics and diagnostics | Monitor app stability and load speeds |
 
 **What is NOT collected:**
 
-- No personal identity (no name, email, phone number, or account)
-- No the actual mantra or prayer text you are counting
-- No precise location
-- No audio, camera, or microphone data
-- No contacts or calendar data
+- **No personal identity:** No name, email, phone number, physical address, or account information.
+- **No religious content:** We do not collect the actual mantra or prayer text you are counting.
+- **No precise location:** We do not access or collect your device's precise GPS coordinates. (Note: Google AdMob resolves your IP address to an **approximate location** to serve localized ads, but we do not track or store this location).
+- **No hardware sensor access:** No audio, camera, microphone, or sensor data.
+- **No personal directories:** No access to contacts, calendar, files, or photos.
 
-All analytics data is transmitted securely to Google's servers and is governed by Google's Privacy Policy.
+All analytics and ad-related data is transmitted securely to Google's servers over HTTPS and is governed by Google's Privacy Policy.
 
 ---
 
@@ -88,21 +92,37 @@ Both features are entirely optional and user-initiated. You are in full control 
 
 ## 5. Third-Party Services
 
-The App uses the following third-party service:
+The App uses the following third-party services:
 
 ### Firebase Analytics (Google LLC)
 
 - **Purpose:** Anonymous usage analytics
-- **Data sent:** Anonymous device and usage events as described in Section 2.2
+- **Data sent:** Anonymous device and usage events as described in Section 2.2.
 - **Privacy policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+### Google AdMob (Google LLC)
+
+- **Purpose:** Display advertisements
+- **Data sent:** Device identifiers and usage data to serve relevant ads. You can opt out of personalized ads through your device settings under Google → Ads.
+- **Privacy policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+### GDPR and UK Privacy Compliance (EU User Consent)
+For users residing in the European Economic Area (EEA), the European Union (EU), and the United Kingdom (UK):
+- The App implements Google's User Messaging Platform (UMP) to obtain explicit consent before initializing Google Mobile Ads (AdMob) or processing analytics.
+- You can revoke or change your consent choices at any time from the settings within the App.
+
+### CCPA/CPRA Privacy Compliance (California Residents)
+Under the California Consumer Privacy Act (CCPA) / California Privacy Rights Act (CPRA), California residents have the right to opt-out of the "sale" or "sharing" of their personal information (which includes device identifiers for personalized advertising). You can manage your ad personalization settings through your device's Google settings under **Google → Ads**.
 
 ---
 
-## 6. Data Retention
+## 6. Data Retention and Deletion
 
 **Local data:** Stored on your device until you delete the App or clear its data. You can also delete all data from within the App via **Settings → Danger Zone → Clear All Data**.
 
 **Analytics data:** Retained by Google for up to 14 months per Firebase Analytics' standard retention policy, after which it is automatically deleted.
+
+**Account and Data Deletion Requests:** Because the App does not collect personal information and does not support user accounts, we do not store any user data on our servers. Consequently, there is no online data to delete, and no account deletion request is necessary. You are in full control of your data and can delete it locally at any time by uninstalling the App or clearing the App's storage in your Android system settings.
 
 ---
 
@@ -144,4 +164,4 @@ If you have any questions or concerns about this privacy policy, please contact 
 
 ---
 
-*This privacy policy was last reviewed on May 24, 2026.*
+*This privacy policy was last reviewed on June 20, 2026.*
