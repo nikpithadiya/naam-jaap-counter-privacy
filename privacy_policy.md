@@ -1,6 +1,6 @@
 # Privacy Policy — Naam Jaap & Mantra Counter
 
-**Last updated:** June 20, 2026  
+**Last updated:** July 10, 2026  
 **Developer:** nik.dev  
 **Contact:** nik.dev.acc@gmail.com
 
@@ -75,7 +75,7 @@ The App does **not** request access to: location, camera, microphone, contacts, 
 
 The App includes an optional backup feature that saves your counting data to a file on your device. Backup files are:
 
-- Encrypted using AES-256 encryption before being saved
+- Encrypted using AES-256 encryption before being saved, to prevent the exported file from being tampered with or edited outside the App — this does not make the file safe to share, as it still contains your personal counting data
 - Saved to a location you choose via the Android file picker
 - Never uploaded to any server by the App
 
@@ -110,6 +110,12 @@ The App uses the following third-party services:
 For users residing in the European Economic Area (EEA), the European Union (EU), and the United Kingdom (UK):
 - The App implements Google's User Messaging Platform (UMP) to obtain explicit consent before initializing Google Mobile Ads (AdMob) or processing analytics.
 - You can revoke or change your consent choices at any time from the settings within the App.
+
+### India's Digital Personal Data Protection Act, 2023 (DPDP Act)
+For users residing in India, this policy is intended to serve as the notice required under the DPDP Act:
+- As a Data Principal, you have the right to access, correct, and request erasure of any personal data processed about you, and to withdraw consent at any time (see Section 6 for how to do so, since the App holds no server-side account data to begin with).
+- The only personal data processed is the anonymous device/usage data described in Section 2.2, processed by our Data Processors (Google LLC, via Firebase Analytics and Google AdMob) for the purposes stated there.
+- Grievances or DPDP-related requests can be raised via the contact details in Section 11.
 
 ### CCPA/CPRA Privacy Compliance (California Residents)
 Under the California Consumer Privacy Act (CCPA) / California Privacy Rights Act (CPRA), California residents have the right to opt-out of the "sale" or "sharing" of their personal information (which includes device identifiers for personalized advertising). You can manage your ad personalization settings through your device's Google settings under **Google → Ads**.
@@ -164,4 +170,4 @@ If you have any questions or concerns about this privacy policy, please contact 
 
 ---
 
-*This privacy policy was last reviewed on June 20, 2026.*
+*This privacy policy was last reviewed on July 10, 2026.*
