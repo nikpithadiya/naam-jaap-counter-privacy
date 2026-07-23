@@ -1,6 +1,6 @@
 # Privacy Policy — Naam Jaap & Mantra Counter
 
-**Last updated:** July 10, 2026  
+**Last updated:** July 22, 2026  
 **Developer:** nik.dev  
 **Contact:** nik.dev.acc@gmail.com
 
@@ -26,6 +26,7 @@ All counting data is stored exclusively on your device using a local SQLite data
 - Counter names and settings (such as cycle size, theme color, sound and haptic preferences)
 - Daily counting logs (such as date and count totals per day)
 - Goal settings (such as target count or cycles)
+- Optional daily reminder times you choose to set, used only to schedule local notifications on your own device (see Section 3 for the permissions this uses)
 
 This data **never leaves your device** unless you explicitly choose to export or back it up using the in-app features described in Section 4. We have no access to this data.
 
@@ -64,8 +65,12 @@ The App requests the following Android permissions:
 |---|---|
 | `INTERNET` | Required to send anonymous analytics data to Firebase |
 | `VIBRATE` | Required for haptic feedback when counting (vibration on tap/cycle) |
+| `POST_NOTIFICATIONS` | Required to show the optional daily reminder notification, only if you choose to enable it. You are asked to grant this permission at the moment you turn a reminder on, not at install or app launch. |
+| `RECEIVE_BOOT_COMPLETED` | Lets your enabled reminders continue to work after you restart your device. Used only to re-register the notification schedule already stored on your device — no data is sent anywhere. |
 
 The App does **not** request access to: location, camera, microphone, contacts, phone, storage (beyond user-initiated file operations), or any other sensitive permission.
+
+Reminder scheduling happens entirely on your device. No reminder times, content, or notification activity is sent to us, Google, or any other third party.
 
 ---
 
@@ -170,4 +175,4 @@ If you have any questions or concerns about this privacy policy, please contact 
 
 ---
 
-*This privacy policy was last reviewed on July 10, 2026.*
+*This privacy policy was last reviewed on July 22, 2026.*
