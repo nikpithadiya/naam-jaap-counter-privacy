@@ -1,6 +1,6 @@
 # Privacy Policy — Naam Jaap & Mantra Counter
 
-**Last updated:** July 22, 2026  
+**Last updated:** August 1, 2026  
 **Developer:** nik.dev  
 **Contact:** nik.dev.acc@gmail.com
 
@@ -11,9 +11,9 @@
 Naam Jaap & Mantra Counter ("the App") is a spiritual mantra and jaap counting application for Android. We are committed to protecting your privacy. This policy explains what information is collected, how it is used, and your rights regarding that information.
 
 **In short:**
-- **No User Accounts:** The App does not require, support, or use user accounts. There are no registration forms, logins, or user profiles.
-- **Data remains local:** All your counting logs and app configuration remain exclusively on your device. We do not operate any server that stores your personal data.
-- **Anonymous analytics:** We collect only anonymous usage analytics to improve the App. No personally identifiable information is collected.
+- **No account required for core use:** You do not need to sign in or register to use the App's counting features. An optional Google Sign-In is only used if you choose to turn on Google Drive backup (see Section 4.3).
+- **Data remains local by default:** All your counting logs and app configuration remain exclusively on your device unless you explicitly choose to back them up to Google Drive. We do not operate any server that stores your personal data.
+- **Anonymous analytics:** We collect only anonymous usage analytics to improve the App. Aside from the optional Google Drive backup feature, no personally identifiable information is collected.
 
 ---
 
@@ -93,6 +93,26 @@ The App can export your counting history as a PDF or Excel file. Exported files 
 
 Both features are entirely optional and user-initiated. You are in full control of where these files are saved and who you share them with.
 
+### 4.3 Google Drive Backup (Optional)
+
+If you choose to enable **Backup to Google Drive** in Settings, the App uses Google Sign-In to authenticate you and uploads an encrypted copy of your counting data to your own Google Drive account. This feature is off by default and entirely optional.
+
+**What we access:**
+- Your Google account email address and basic profile information, used only to complete sign-in. The App does not access your Google contacts, photos, or any other files in your Drive.
+
+**What is uploaded:**
+- The same AES-256 encrypted backup file described in Section 4.1, uploaded to a hidden "app data" folder in your Google Drive (the `drive.appdata` scope). This folder does not appear in your regular Google Drive, cannot be browsed or accessed by any other app, and is not accessible to us — it exists solely within your own Google account.
+
+**What happens to it:**
+- We have no server-side access to this file; it is stored entirely within your Google account, subject to Google's own privacy and security practices ([https://policies.google.com/privacy](https://policies.google.com/privacy)).
+- Each new backup overwrites the previous one — no history of past backups is kept.
+
+**Your control:**
+- Restore at any time via **Settings → Restore from Google Drive**.
+- Revoke the App's access to your Google account at any time from **myaccount.google.com → Security → Third-party apps with account access**.
+
+**Limited Use disclosure:** Naam Jaap & Mantra Counter's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
 ---
 
 ## 5. Third-Party Services
@@ -109,6 +129,12 @@ The App uses the following third-party services:
 
 - **Purpose:** Display advertisements
 - **Data sent:** Device identifiers and usage data to serve relevant ads. You can opt out of personalized ads through your device settings under Google → Ads.
+- **Privacy policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+### Google Sign-In & Google Drive API (Google LLC)
+
+- **Purpose:** Optional account sign-in and encrypted backup storage, used only if you enable Google Drive backup (Section 4.3)
+- **Data sent:** Your Google account email/basic profile (for sign-in) and your encrypted backup file (uploaded to your own Drive's hidden app data folder)
 - **Privacy policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 ### GDPR and UK Privacy Compliance (EU User Consent)
@@ -133,7 +159,9 @@ Under the California Consumer Privacy Act (CCPA) / California Privacy Rights Act
 
 **Analytics data:** Retained by Google for up to 14 months per Firebase Analytics' standard retention policy, after which it is automatically deleted.
 
-**Account and Data Deletion Requests:** Because the App does not collect personal information and does not support user accounts, we do not store any user data on our servers. Consequently, there is no online data to delete, and no account deletion request is necessary. You are in full control of your data and can delete it locally at any time by uninstalling the App or clearing the App's storage in your Android system settings.
+**Google Drive backup data:** If you enabled Google Drive backup, your encrypted backup file is retained in your own Google Drive until you delete it or revoke the App's access (see Section 4.3). We do not store this data ourselves and cannot delete it on your behalf.
+
+**Account and Data Deletion Requests:** We do not operate any servers that store your personal data — all data either stays on your device or, for the optional Drive backup, in your own Google account. There is no account with us to delete. You are in full control of your data and can delete it locally at any time by uninstalling the App or clearing the App's storage in your Android system settings, and can remove your Drive backup.
 
 ---
 
@@ -175,4 +203,4 @@ If you have any questions or concerns about this privacy policy, please contact 
 
 ---
 
-*This privacy policy was last reviewed on July 22, 2026.*
+*This privacy policy was last reviewed on August 1, 2026.*
