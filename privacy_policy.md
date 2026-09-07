@@ -1,6 +1,6 @@
 # Privacy Policy — Naam Jaap & Mantra Counter
 
-**Last updated:** August 1, 2026  
+**Last updated:** September 7, 2026  
 **Developer:** nik.dev  
 **Contact:** nik.dev.acc@gmail.com
 
@@ -67,10 +67,15 @@ The App requests the following Android permissions:
 | `VIBRATE` | Required for haptic feedback when counting (vibration on tap/cycle) |
 | `POST_NOTIFICATIONS` | Required to show the optional daily reminder notification, only if you choose to enable it. You are asked to grant this permission at the moment you turn a reminder on, not at install or app launch. |
 | `RECEIVE_BOOT_COMPLETED` | Lets your enabled reminders continue to work after you restart your device. Used only to re-register the notification schedule already stored on your device — no data is sent anywhere. |
+| `WAKE_LOCK` (Android only) | Keeps the device awake only while you have actively started the optional "Auto-count" mode, so it can keep incrementing your count at your chosen interval even with the screen locked. Released automatically the moment you pause or stop the session. |
+| `FOREGROUND_SERVICE` (Android only) | Required by Android to run the foreground service that powers Auto-count mode. Only active while a session you started is running. |
+| `FOREGROUND_SERVICE_SPECIAL_USE` (Android only) | Lets Auto-count mode keep running in the background or with the screen locked, only while you have explicitly started it. See "Auto-count mode" below for details. |
 
 The App does **not** request access to: location, camera, microphone, contacts, phone, storage (beyond user-initiated file operations), or any other sensitive permission.
 
 Reminder scheduling happens entirely on your device. No reminder times, content, or notification activity is sent to us, Google, or any other third party.
+
+**Auto-count mode (optional, Android only):** If you start Auto-count mode, the App automatically increments your count at an interval you choose, without you needing to tap anything, including while the screen is locked. A persistent notification is shown the entire time a session is running, showing your live count with Pause and Stop controls, so you always know it is active and can stop it instantly. If you don't set a stop condition yourself, the session still can't run forever unattended: it automatically stops after 200,000 counts or 12 hours, whichever comes first. This feature does not collect, transmit, or share any data — your count is written to the same local database as a manual tap, and nothing about your Auto-count sessions ever leaves your device.
 
 ---
 
@@ -203,4 +208,4 @@ If you have any questions or concerns about this privacy policy, please contact 
 
 ---
 
-*This privacy policy was last reviewed on August 1, 2026.*
+*This privacy policy was last reviewed on September 7, 2026.*
